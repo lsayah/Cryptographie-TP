@@ -8,6 +8,9 @@ This project provides a simple implementation of message encryption and decrypti
 php-encryption-project
 ├── Asymétrique
 |   ├── src 
+|       ├── keys      
+|           ├── private_key.pem      # Contains the encryptMessage function
+│           ├── public_key.pem      # Contains the decryptMessage function
 |       ├── encrypt.php      # Contains the encryptMessage function
 │       ├── decrypt.php      # Contains the decryptMessage function
 │       └── index.php        # Main entry point for the application     # Contains the encryptMessage function
