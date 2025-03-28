@@ -6,10 +6,16 @@ This project provides a simple implementation of message encryption and decrypti
 
 ```
 php-encryption-project
-├── src
-│   ├── encrypt.php      # Contains the encryptMessage function
-│   ├── decrypt.php      # Contains the decryptMessage function
-│   └── index.php        # Main entry point for the application
+├── Asymétrique
+|   ├── src 
+|       ├── encrypt.php      # Contains the encryptMessage function
+│       ├── decrypt.php      # Contains the decryptMessage function
+│       └── index.php        # Main entry point for the application     # Contains the encryptMessage function
+├── Symétrique
+|   ├── src
+│       ├── encrypt.php      # Contains the encryptMessage function
+│       ├── decrypt.php      # Contains the decryptMessage function
+│       └── index.php        # Main entry point for the application
 ├── composer.json         # Composer configuration file
 └── README.md             # Project documentation
 ```
